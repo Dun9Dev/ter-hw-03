@@ -1,0 +1,10 @@
+[webservers]
+web-1 ansible_host=51.250.82.75 fqdn=fhme27svffgcibo23e2d.auto.internal
+web-2 ansible_host=89.169.140.14 fqdn=fhmofs6c3k69qcqql8tl.auto.internal
+
+[databases]
+main ansible_host=158.160.48.222 fqdn=fhmk8anabuqg6c5qhhie.auto.internal
+replica ansible_host=89.169.154.98 fqdn=fhmn597d2ele5548odlq.auto.internal
+
+[storage]
+storage ansible_host=89.169.143.100 fqdn=fhmf8bson8erp03jqgt1.auto.internal
