@@ -6,10 +6,10 @@
 ## 🖼 Скриншоты
 
 ### 1. Группа безопасности — входящие правила (ingress)
-![Группа безопасности](security-group-ingress.png)
+![Группа безопасности](https://github.com/Dun9Dev/ter-hw-03/blob/terraform-03/img/Screenshot_4.png)
 
 ### 2. Ansible inventory.yml
-![inventory.yml](inventory-yml.png)
+![inventory.yml](https://github.com/Dun9Dev/ter-hw-03/blob/terraform-03/img/Screenshot_1.png)
 
 ## ✅ Выполненные задания
 
@@ -32,8 +32,3 @@
 - `ansible.tf` и `ansible.tpl`: сгенерирован `inventory.yml` с 3 группами.
 - Инвентарь динамический, обрабатывает любое количество ВМ.
 - Переменная `fqdn` передаётся для каждой ВМ.
-
-## ✅ Удаление ресурсов
-Перед окончанием работы все ресурсы были удалены с помощью:
-```bash
-terraform destroy
