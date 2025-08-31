@@ -9,8 +9,6 @@ resource "yandex_vpc_subnet" "develop" {
 }
 
 data "yandex_compute_image" "ubuntu" {
-  filter {
-    name   = "ubuntu-2004-lts"
-    folder_id = var.folder_id
-  }
+  family    = "ubuntu-2204-lts"
+  folder_id = "standard-images"
 }
