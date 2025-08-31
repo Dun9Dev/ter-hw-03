@@ -20,11 +20,11 @@ resource "yandex_compute_instance" "storage" {
     core_fraction = 20
   }
 
-  boot_disk {
-    initialize_params {
-      image_id = "fd86lblkag66uq48h63d" # ubuntu-2004-lts
-    }
+ boot_disk {
+  initialize_params {
+    image_id = data.yandex_compute_image.ubuntu.id
   }
+}
 
   scheduling_policy {
     preemptible = true
